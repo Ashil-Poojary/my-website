@@ -8,7 +8,7 @@ const ThemeBtns = () => {
     const [selectedTheme,setSelectedTheme]=useState(DARK)
     return (
   <div className='mt-2 lg:mt-0'>
-        <div className=" rounded-lg   flex gap-2     "
+        <div className=" rounded-lg   flex gap-2  text-text-color2    "
       >
           <Dark isSelected={selectedTheme===DARK} onClick={setSelectedTheme} />
           <Light isSelected={selectedTheme===LIGHT}  onClick={setSelectedTheme} />
